@@ -1,0 +1,22 @@
+{
+    "name": "polus/polus-router",
+    "description": "router polus",
+    "homepage": "https://github.com/polusphp/polus-router",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@forme.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "aura/router": "~3.0",
+        "psr/http-message": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polus\\Router\\": "src/"
+        }
+    }
+}
